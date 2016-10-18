@@ -1,0 +1,11 @@
+12:44:57 **** Incremental Build of configuration Debug for project helloTest ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "helloTest.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4273	    160	    416	   4849	   12f1	helloTest.elf
+Finished building: helloTest.siz
+ 
+
+12:44:57 Build Finished (took 66ms)
+

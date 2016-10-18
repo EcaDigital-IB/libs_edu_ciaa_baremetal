@@ -1,0 +1,6 @@
+10:58:33 **** Incremental Build of configuration Default for project ciaa_lpcopen_bare-master ****
+make all 
+make: Nothing to be done for `all'.
+
+10:58:33 Build Finished (took 80ms)
+

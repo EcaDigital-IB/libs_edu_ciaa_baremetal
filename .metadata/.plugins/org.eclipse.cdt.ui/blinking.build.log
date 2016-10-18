@@ -1,0 +1,252 @@
+12:38:57 **** Build of configuration Debug for project blinking ****
+make all 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/adc_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/adc_18xx_43xx.d" -MT"lpc_chip_43xx/src/adc_18xx_43xx.o" -c -o "lpc_chip_43xx/src/adc_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/adc_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/adc_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/aes_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/aes_18xx_43xx.d" -MT"lpc_chip_43xx/src/aes_18xx_43xx.o" -c -o "lpc_chip_43xx/src/aes_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/aes_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/aes_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/atimer_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/atimer_18xx_43xx.d" -MT"lpc_chip_43xx/src/atimer_18xx_43xx.o" -c -o "lpc_chip_43xx/src/atimer_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/atimer_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/atimer_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ccan_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/ccan_18xx_43xx.d" -MT"lpc_chip_43xx/src/ccan_18xx_43xx.o" -c -o "lpc_chip_43xx/src/ccan_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ccan_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ccan_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/chip_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/chip_18xx_43xx.d" -MT"lpc_chip_43xx/src/chip_18xx_43xx.o" -c -o "lpc_chip_43xx/src/chip_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/chip_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/chip_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/clock_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/clock_18xx_43xx.d" -MT"lpc_chip_43xx/src/clock_18xx_43xx.o" -c -o "lpc_chip_43xx/src/clock_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/clock_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/clock_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/dac_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/dac_18xx_43xx.d" -MT"lpc_chip_43xx/src/dac_18xx_43xx.o" -c -o "lpc_chip_43xx/src/dac_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/dac_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/dac_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/eeprom_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/eeprom_18xx_43xx.d" -MT"lpc_chip_43xx/src/eeprom_18xx_43xx.o" -c -o "lpc_chip_43xx/src/eeprom_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/eeprom_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/eeprom_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/emc_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/emc_18xx_43xx.d" -MT"lpc_chip_43xx/src/emc_18xx_43xx.o" -c -o "lpc_chip_43xx/src/emc_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/emc_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/emc_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/enet_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/enet_18xx_43xx.d" -MT"lpc_chip_43xx/src/enet_18xx_43xx.o" -c -o "lpc_chip_43xx/src/enet_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/enet_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/enet_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/evrt_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/evrt_18xx_43xx.d" -MT"lpc_chip_43xx/src/evrt_18xx_43xx.o" -c -o "lpc_chip_43xx/src/evrt_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/evrt_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/evrt_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/fpu_init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/fpu_init.d" -MT"lpc_chip_43xx/src/fpu_init.o" -c -o "lpc_chip_43xx/src/fpu_init.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/fpu_init.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/fpu_init.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpdma_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/gpdma_18xx_43xx.d" -MT"lpc_chip_43xx/src/gpdma_18xx_43xx.o" -c -o "lpc_chip_43xx/src/gpdma_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpdma_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpdma_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpio_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/gpio_18xx_43xx.d" -MT"lpc_chip_43xx/src/gpio_18xx_43xx.o" -c -o "lpc_chip_43xx/src/gpio_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpio_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpio_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpiogroup_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/gpiogroup_18xx_43xx.d" -MT"lpc_chip_43xx/src/gpiogroup_18xx_43xx.o" -c -o "lpc_chip_43xx/src/gpiogroup_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpiogroup_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/gpiogroup_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/hsadc_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/hsadc_18xx_43xx.d" -MT"lpc_chip_43xx/src/hsadc_18xx_43xx.o" -c -o "lpc_chip_43xx/src/hsadc_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/hsadc_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/hsadc_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2c_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/i2c_18xx_43xx.d" -MT"lpc_chip_43xx/src/i2c_18xx_43xx.o" -c -o "lpc_chip_43xx/src/i2c_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2c_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2c_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2cm_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/i2cm_18xx_43xx.d" -MT"lpc_chip_43xx/src/i2cm_18xx_43xx.o" -c -o "lpc_chip_43xx/src/i2cm_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2cm_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2cm_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2s_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/i2s_18xx_43xx.d" -MT"lpc_chip_43xx/src/i2s_18xx_43xx.o" -c -o "lpc_chip_43xx/src/i2s_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2s_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/i2s_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/iap_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/iap_18xx_43xx.d" -MT"lpc_chip_43xx/src/iap_18xx_43xx.o" -c -o "lpc_chip_43xx/src/iap_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/iap_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/iap_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/lcd_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/lcd_18xx_43xx.d" -MT"lpc_chip_43xx/src/lcd_18xx_43xx.o" -c -o "lpc_chip_43xx/src/lcd_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/lcd_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/lcd_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/otp_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/otp_18xx_43xx.d" -MT"lpc_chip_43xx/src/otp_18xx_43xx.o" -c -o "lpc_chip_43xx/src/otp_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/otp_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/otp_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/pinint_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/pinint_18xx_43xx.d" -MT"lpc_chip_43xx/src/pinint_18xx_43xx.o" -c -o "lpc_chip_43xx/src/pinint_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/pinint_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/pinint_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/pmc_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/pmc_18xx_43xx.d" -MT"lpc_chip_43xx/src/pmc_18xx_43xx.o" -c -o "lpc_chip_43xx/src/pmc_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/pmc_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/pmc_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ring_buffer.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/ring_buffer.d" -MT"lpc_chip_43xx/src/ring_buffer.o" -c -o "lpc_chip_43xx/src/ring_buffer.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ring_buffer.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ring_buffer.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ritimer_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/ritimer_18xx_43xx.d" -MT"lpc_chip_43xx/src/ritimer_18xx_43xx.o" -c -o "lpc_chip_43xx/src/ritimer_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ritimer_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ritimer_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/rtc_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/rtc_18xx_43xx.d" -MT"lpc_chip_43xx/src/rtc_18xx_43xx.o" -c -o "lpc_chip_43xx/src/rtc_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/rtc_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/rtc_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sct_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/sct_18xx_43xx.d" -MT"lpc_chip_43xx/src/sct_18xx_43xx.o" -c -o "lpc_chip_43xx/src/sct_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sct_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sct_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sct_pwm_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/sct_pwm_18xx_43xx.d" -MT"lpc_chip_43xx/src/sct_pwm_18xx_43xx.o" -c -o "lpc_chip_43xx/src/sct_pwm_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sct_pwm_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sct_pwm_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdif_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/sdif_18xx_43xx.d" -MT"lpc_chip_43xx/src/sdif_18xx_43xx.o" -c -o "lpc_chip_43xx/src/sdif_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdif_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdif_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdio_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/sdio_18xx_43xx.d" -MT"lpc_chip_43xx/src/sdio_18xx_43xx.o" -c -o "lpc_chip_43xx/src/sdio_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdio_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdio_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdmmc_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/sdmmc_18xx_43xx.d" -MT"lpc_chip_43xx/src/sdmmc_18xx_43xx.o" -c -o "lpc_chip_43xx/src/sdmmc_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdmmc_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sdmmc_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/spi_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/spi_18xx_43xx.d" -MT"lpc_chip_43xx/src/spi_18xx_43xx.o" -c -o "lpc_chip_43xx/src/spi_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/spi_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/spi_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ssp_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/ssp_18xx_43xx.d" -MT"lpc_chip_43xx/src/ssp_18xx_43xx.o" -c -o "lpc_chip_43xx/src/ssp_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ssp_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/ssp_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/stopwatch_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/stopwatch_18xx_43xx.d" -MT"lpc_chip_43xx/src/stopwatch_18xx_43xx.o" -c -o "lpc_chip_43xx/src/stopwatch_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/stopwatch_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/stopwatch_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sysinit_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/sysinit_18xx_43xx.d" -MT"lpc_chip_43xx/src/sysinit_18xx_43xx.o" -c -o "lpc_chip_43xx/src/sysinit_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sysinit_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/sysinit_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/timer_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/timer_18xx_43xx.d" -MT"lpc_chip_43xx/src/timer_18xx_43xx.o" -c -o "lpc_chip_43xx/src/timer_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/timer_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/timer_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/uart_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/uart_18xx_43xx.d" -MT"lpc_chip_43xx/src/uart_18xx_43xx.o" -c -o "lpc_chip_43xx/src/uart_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/uart_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/uart_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/wwdt_18xx_43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_chip_43xx/src/wwdt_18xx_43xx.d" -MT"lpc_chip_43xx/src/wwdt_18xx_43xx.o" -c -o "lpc_chip_43xx/src/wwdt_18xx_43xx.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/wwdt_18xx_43xx.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/src/wwdt_18xx_43xx.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/board.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_board_ciaa_edu_4337/src/board.d" -MT"lpc_board_ciaa_edu_4337/src/board.o" -c -o "lpc_board_ciaa_edu_4337/src/board.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/board.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/board.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/board_sysinit.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_board_ciaa_edu_4337/src/board_sysinit.d" -MT"lpc_board_ciaa_edu_4337/src/board_sysinit.o" -c -o "lpc_board_ciaa_edu_4337/src/board_sysinit.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/board_sysinit.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/board_sysinit.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/crp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_board_ciaa_edu_4337/src/crp.d" -MT"lpc_board_ciaa_edu_4337/src/crp.o" -c -o "lpc_board_ciaa_edu_4337/src/crp.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/crp.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/crp.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/lcd_st7565s.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_board_ciaa_edu_4337/src/lcd_st7565s.d" -MT"lpc_board_ciaa_edu_4337/src/lcd_st7565s.o" -c -o "lpc_board_ciaa_edu_4337/src/lcd_st7565s.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/lcd_st7565s.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/lcd_st7565s.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.d" -MT"lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.o" -c -o "lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.c
+ 
+Building file: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/wm8904.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"lpc_board_ciaa_edu_4337/src/wm8904.d" -MT"lpc_board_ciaa_edu_4337/src/wm8904.o" -c -o "lpc_board_ciaa_edu_4337/src/wm8904.o" "/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/wm8904.c"
+Finished building: /home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/src/wm8904.c
+ 
+Building file: ../blinking/src/cr_startup_lpc43xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"blinking/src/cr_startup_lpc43xx.d" -MT"blinking/src/cr_startup_lpc43xx.o" -c -o "blinking/src/cr_startup_lpc43xx.o" "../blinking/src/cr_startup_lpc43xx.c"
+Finished building: ../blinking/src/cr_startup_lpc43xx.c
+ 
+Building file: ../blinking/src/sysinit.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"blinking/src/sysinit.d" -MT"blinking/src/sysinit.o" -c -o "blinking/src/sysinit.o" "../blinking/src/sysinit.c"
+Finished building: ../blinking/src/sysinit.c
+ 
+Building file: ../blinking/src/systick.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -D__USE_LPCOPEN -DCORE_M4 -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_board_ciaa_edu_4337/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc -I/home/l_vis/edu_ciaa/ciaa_lpcopen_bare-master/lpc_chip_43xx/inc/usbd -std=gnu11 -MMD -MP -MF"blinking/src/systick.d" -MT"blinking/src/systick.o" -c -o "blinking/src/systick.o" "../blinking/src/systick.c"
+Finished building: ../blinking/src/systick.c
+ 
+Building target: blinking.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding  -g3 -Xlinker --gc-sections -Wl,-Map,"blinking.map" -o "blinking.elf"  ./lpc_chip_43xx/src/adc_18xx_43xx.o ./lpc_chip_43xx/src/aes_18xx_43xx.o ./lpc_chip_43xx/src/atimer_18xx_43xx.o ./lpc_chip_43xx/src/ccan_18xx_43xx.o ./lpc_chip_43xx/src/chip_18xx_43xx.o ./lpc_chip_43xx/src/clock_18xx_43xx.o ./lpc_chip_43xx/src/dac_18xx_43xx.o ./lpc_chip_43xx/src/eeprom_18xx_43xx.o ./lpc_chip_43xx/src/emc_18xx_43xx.o ./lpc_chip_43xx/src/enet_18xx_43xx.o ./lpc_chip_43xx/src/evrt_18xx_43xx.o ./lpc_chip_43xx/src/fpu_init.o ./lpc_chip_43xx/src/gpdma_18xx_43xx.o ./lpc_chip_43xx/src/gpio_18xx_43xx.o ./lpc_chip_43xx/src/gpiogroup_18xx_43xx.o ./lpc_chip_43xx/src/hsadc_18xx_43xx.o ./lpc_chip_43xx/src/i2c_18xx_43xx.o ./lpc_chip_43xx/src/i2cm_18xx_43xx.o ./lpc_chip_43xx/src/i2s_18xx_43xx.o ./lpc_chip_43xx/src/iap_18xx_43xx.o ./lpc_chip_43xx/src/lcd_18xx_43xx.o ./lpc_chip_43xx/src/otp_18xx_43xx.o ./lpc_chip_43xx/src/pinint_18xx_43xx.o ./lpc_chip_43xx/src/pmc_18xx_43xx.o ./lpc_chip_43xx/src/ring_buffer.o ./lpc_chip_43xx/src/ritimer_18xx_43xx.o ./lpc_chip_43xx/src/rtc_18xx_43xx.o ./lpc_chip_43xx/src/sct_18xx_43xx.o ./lpc_chip_43xx/src/sct_pwm_18xx_43xx.o ./lpc_chip_43xx/src/sdif_18xx_43xx.o ./lpc_chip_43xx/src/sdio_18xx_43xx.o ./lpc_chip_43xx/src/sdmmc_18xx_43xx.o ./lpc_chip_43xx/src/spi_18xx_43xx.o ./lpc_chip_43xx/src/ssp_18xx_43xx.o ./lpc_chip_43xx/src/stopwatch_18xx_43xx.o ./lpc_chip_43xx/src/sysinit_18xx_43xx.o ./lpc_chip_43xx/src/timer_18xx_43xx.o ./lpc_chip_43xx/src/uart_18xx_43xx.o ./lpc_chip_43xx/src/wwdt_18xx_43xx.o  ./lpc_board_ciaa_edu_4337/src/board.o ./lpc_board_ciaa_edu_4337/src/board_sysinit.o ./lpc_board_ciaa_edu_4337/src/crp.o ./lpc_board_ciaa_edu_4337/src/lcd_st7565s.o ./lpc_board_ciaa_edu_4337/src/lpc_phy_smsc87x0.o ./lpc_board_ciaa_edu_4337/src/wm8904.o  ./blinking/src/cr_startup_lpc43xx.o ./blinking/src/sysinit.o ./blinking/src/systick.o   
+/home/l_vis/edu_ciaa/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make: *** [blinking.elf] Error 1
+
+12:39:01 Build Finished (took 3s.725ms)
+

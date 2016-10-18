@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/BOARD/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/BOARD/operation=append
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/BOARD/value=edu_ciaa_nxp
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/PATH/value=${arm_none_eabi_home_path}/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:${arm_none_eabi_gdb_path}
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.1845327129/appendContributed=true

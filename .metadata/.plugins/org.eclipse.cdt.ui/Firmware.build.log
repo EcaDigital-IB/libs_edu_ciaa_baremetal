@@ -1,0 +1,7 @@
+12:15:20 **** Incremental Build of configuration Default for project Firmware ****
+make all 
+Makefile:232: modules/rtos/mak/Makefile: No such file or directory
+make: *** No rule to make target `modules/rtos/mak/Makefile'.  Stop.
+
+12:15:20 Build Finished (took 124ms)
+
