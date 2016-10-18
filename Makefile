@@ -1,50 +1,5 @@
-#APP=freertos_blinky
-#APP=lwip_freertos_tcpecho
-#APP=lwip_freertos_webserver
-#APP=lwip_tcpecho
-#APP=lwip_webserver
-#APP=misc_clock_apis
-#APP=misc_iox_sensor
-#APP=misc_lcd_helloworld
-#APP=misc_otp_funcs
-#APP=misc_pmc_states
-#APP=misc_trimpot
-#APP=periph_adc
-#APP=periph_aes
-#APP=periph_atimer
-#APP=periph_blinky
-#APP=periph_ccan
-#APP=periph_dac
-#APP=periph_dma_timertrig
-#APP=periph_flashiap
-#APP=periph_grouped_int
-#APP=periph_i2c
-#APP=periph_i2cm_interrupt
-#APP=periph_i2cm_polling
-#APP=periph_i2s
-#APP=periph_pinint
-#APP=periph_ritimer
-#APP=periph_rtc
-#APP=periph_sct_pwm
-#APP=periph_sdio
-#APP=periph_sdmmc
-APP=periph_ssp
-#APP=periph_systick
-#APP=periph_timers
-#APP=periph_uart
-#APP=periph_uart_rb
-#APP=periph_watchdog
-#APP=usbd_rom_bwtest
-#APP=usbd_rom_cdc_uart
-#APP=usbd_rom_cdc_vcom
-#APP=usbd_rom_dfu_composite
-#APP=usbd_rom_hid_generic
-#APP=usbd_rom_hid_keyboard
-#APP=usbd_rom_hid_mouse
-#APP=usbd_rom_hid_sio
-#APP=usbd_rom_libusb
-#APP=usbd_rom_msc_ram
-#APP=usbd_rom_msc_sdmmc
+APP=program
+
 
 MODULES=lpc_chip_43xx lpc_board_ciaa_edu_4337
 DEFINES=CORE_M4 __USE_LPCOPEN
@@ -60,8 +15,8 @@ LDSCRIPT=ldscript/ciaa_lpc4337.ld
 ARCH_FLAGS=-mcpu=cortex-m4 -mthumb
 ARCH_FLAGS+=-mfloat-abi=hard -mfpu=fpv4-sp-d16
 
-CFLAGS=$(ARCH_FLAGS) $(INCLUDES) $(_DEFINES) -ggdb3 -Og
-LDFLAGS=$(ARCH_FLAGS) -T$(LDSCRIPT) -nostartfiles
+CFLAGS=$(ARCH_FLAGS) $(INCLUDES) $(_DEFINES) -ggdb3 -O2
+LDFLAGS=$(ARCH_FLAGS) -T$(LDSCRIPT) -nostartfiles -O2
 LDFLAGS+=-Wl,-gc-sections
 LDFLAGS+=$(foreach l, $(LIBS), -l$(l))
 
