@@ -27,6 +27,7 @@ int main(void) {
 	Board_Init();
 	SysTick_Config(SystemCoreClock / TICKRATE_HZ);
 
+
 	Buttons_InitDeb(100, tick_ct);
 
 	while (1) {
