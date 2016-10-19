@@ -1,6 +1,6 @@
-# ciaa_lpcopen_bare
+# libs_edu_ciaa_bare
 
-Bare Metal, LPCOpen projects for EDU-CIAA-NXP
+Proyecto de Eclipse para programar EDU-CIAA-NXP en modo baremetal (Basado en el repositorio de Martin Ribelotta y las librerías LPCOpen de NXP Semiconductors N.V.)
 
 ![CIAA logo](https://avatars0.githubusercontent.com/u/6998305?v=3&s=128)
 
@@ -11,8 +11,6 @@ Bare Metal, LPCOpen projects for EDU-CIAA-NXP
  - openocd with ftdi driver support
 
 ## Usage
-
- - Edit `Makefile` file and uncomment required `APP=...` (one of all)
  - From command line type `make all` or simply `make`
  - with the board connected, type `make download`. This write program into board and run
  - For erase chip, type `make erase`
