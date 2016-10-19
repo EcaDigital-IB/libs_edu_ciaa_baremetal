@@ -6,23 +6,23 @@ Proyecto de Eclipse para programar EDU-CIAA-NXP en modo baremetal (Basado en el 
 
 ## Dependencies
 
- - arm-none-eabi from https://launchpad.net/gcc-arm-embedded
+ - arm-none-eabi (https://launchpad.net/gcc-arm-embedded)
  - make and fileutils (rm, sed, echo, etc) from your system (linux,unix,cygwin,mingw)
  - openocd with ftdi driver support
 
 ## Usage
  - From command line type `make all` or simply `make`
- - with the board connected, type `make download`. This write program into board and run
- - For erase chip, type `make erase`
- - For debuggin, in another console, type `make openocd`. This start openocd and listen for gdb connection
- - In the main console type `make debug`. This start gdb and connect with openocd, download the code to flash and start execution
+ - With board connected, type `make download`. This deploys program to target board
+ - In order to erase chip, type `make erase`
+ - For debugging, in another console, type `make openocd`. This starts openocd which listens for gdb connections
+ - In the main console type `make debug`. This start gdb and connects with openocd, deploys code to target's flash and starts execution
 
 ## Status
 
-This is work in progress. Some projects not work.
+This is work in progress. Some examples do not work.
 
-An actualized status of complied pograms can see in [the last recent build log](logs/test_build_all.log)
+An updated status of complied pograms can be found in [the last recent build log](logs/test_build_all.log)
 
-**WARNING**: If a project pass the compilation, not necessarily work in board
+**WARNING**: If an example is succesfully compiled, not necessarily works when deployed
 
-To actualize build log, type `make test_build_all` into main directory
+In order to update build log, type `make test_build_all` while in main directory
