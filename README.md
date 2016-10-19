@@ -12,7 +12,7 @@ Proyecto de Eclipse para programar EDU-CIAA-NXP en modo baremetal (Basado en el 
 
 ## Usage
  - From command line type `make all` or simply `make`
- - With board connected, type `make download`. This deploys program to target board
+ - With board connected, type `make download`, this deploys the program to target board
  - In order to erase chip, type `make erase`
  - For debugging, in another console, type `make openocd`. This starts openocd which listens for gdb connections
  - In the main console type `make debug`. This start gdb and connects with openocd, deploys code to target's flash and starts execution
