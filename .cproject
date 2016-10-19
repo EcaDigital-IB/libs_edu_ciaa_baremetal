@@ -95,10 +95,9 @@
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.2056564755" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1805405144" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ciaa_baremetal/lpc_board_ciaa_edu_4337/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ciaa_baremetal/lpc_chip_43xx/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ciaa_baremetal/lpc_chip_43xx/inc/usbd}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${arm_none_eabi_home_path}/arm-none-eabi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lpc_board_ciaa_edu_4337/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lpc_chip_43xx/inc/usbd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/lpc_chip_43xx/inc}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.2118599564" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="CORE_M4"/>
