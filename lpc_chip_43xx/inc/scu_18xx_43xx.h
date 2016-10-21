@@ -46,6 +46,18 @@ typedef struct {
 	uint16_t modefunc;	/* Pin mode and function for SCU */
 } PINMUX_GRP_T;
 
+/* GPIO Port structure*/
+
+typedef struct {
+	uint8_t port;
+	uint8_t pin;
+} io_port_t;
+
+typedef struct {
+	PINMUX_GRP_T mux;
+	io_port_t io;
+} gpio_port_t;
+
 /**
  * @brief System Control Unit register block
  */

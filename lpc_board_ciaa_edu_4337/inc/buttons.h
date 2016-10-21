@@ -20,17 +20,6 @@
 #define BUTTONS_SW3  0x04
 #define BUTTONS_SW4  0x08
 
-/* GPIO Port structure*/
-
-typedef struct {
-	uint8_t port;
-	uint8_t pin;
-} io_port_t;
-
-typedef struct {
-	PINMUX_GRP_T mux;
-	io_port_t io;
-} gpio_port_t;
 
 /* Buttons' GPIO Port structure array*/
 static const gpio_port_t _gpioSWBits[] = { {.mux = {1, 0, SCU_MODE_FUNC0}, .io = {0, 4}},

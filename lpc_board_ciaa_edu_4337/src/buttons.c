@@ -7,7 +7,7 @@
 
 #include "buttons.h"
 
-bool _fDebInit = false, _fButInit = false;
+static bool _fDebInit = false, _fButInit = false;
 
 uint32_t _debT = BUTTONS_DEF_DEB_T;
 

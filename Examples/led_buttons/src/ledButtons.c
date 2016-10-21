@@ -12,7 +12,7 @@ int main(void) {
 
 		if (Buttons_Poll(1))
 			LEDSet(false);
-		//Board_LED_Toggle(LED_1);
+
 		else
 			LEDSet(true);
 	}

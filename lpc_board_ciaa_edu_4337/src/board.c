@@ -45,11 +45,6 @@
 const uint32_t ExtRateIn = 0;
 const uint32_t OscRateIn = 12000000;
 
-typedef struct {
-	uint8_t port;
-	uint8_t pin;
-} io_port_t;
-
 static const io_port_t gpioLEDBits[] = {{0, 14}, {1, 11}, {1, 12}, {5, 0}, {5, 1}, {5, 2}};
 static uint32_t lcd_cfg_val;
 
