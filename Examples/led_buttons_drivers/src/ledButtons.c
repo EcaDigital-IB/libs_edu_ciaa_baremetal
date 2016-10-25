@@ -19,7 +19,7 @@ int main(void) {
 
 	uint32_t oldT;
 
-	char printBuff [128];
+	char printBuff[128];
 
 	SystemCoreClockUpdate();
 
@@ -33,45 +33,32 @@ int main(void) {
 
 	oldT = _tCnt;
 
-
-
 	while (1) {
 
 		if (Buttons_Poll(BUTTONS_SW1))
 			LEDS_Set(LEDS_1, false);
 
+		else if (Buttons_Poll(BUTTONS_SW2))
+			LEDS_SetAll(0x2A);
+
+		else if (Buttons_Poll(BUTTONS_SW3))
+			LEDS_SetAll(0x15);
+
+		else if (Buttons_Poll(BUTTONS_SW4))
+			LEDS_SetAll(0x07);
+
 		else
-			LEDS_Set(LEDS_1, true);
-
-		if (Buttons_Poll(BUTTONS_SW2))
-					LEDS_SetAll(0x2A);
-
-				else
-					LEDS_SetAll(0x00);
-
-		if (Buttons_Poll(BUTTONS_SW3))
-					LEDS_SetAll(0x15);
-
-				else
-					LEDS_SetAll(0x00);
-
-		if (Buttons_Poll(BUTTONS_SW4))
-					LEDS_SetAll(0x07);
-
-				else
-					LEDS_SetAll(0x00);
+			LEDS_SetAll(0x00);
 
 		if (_tCnt - oldT >= PRINT_RATE * TICK_RATE) {
 
 			oldT = _tCnt;
 
-			sprintf(printBuff, "LEDs  %d \r\n", 0x10);
-
-			sprintf(printBuff, "LEDs state: %d \r\n", LEDS_TestAll());
+			sprintf(printBuff, "LEDs state: %x \r\n", LEDS_TestAll());
 
 			Board_UARTPutSTR(printBuff);
 
-			sprintf(printBuff, "Buttons state: %d \r\n", Buttons_PollAll());
+			sprintf(printBuff, "Buttons state: %x \r\n", Buttons_PollAll());
 
 			Board_UARTPutSTR(printBuff);
 
