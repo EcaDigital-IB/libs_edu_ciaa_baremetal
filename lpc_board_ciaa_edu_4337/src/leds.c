@@ -21,43 +21,93 @@ void LEDS_Init(void) {
 				(_gpioLEDBits[i].mux.modefunc | SCU_MODE_INBUFF_EN
 						| SCU_MODE_PULLUP));
 
-		Chip_GPIO_SetPinDIRInput(LPC_GPIO_PORT, _gpioLEDBits[i].io.port,
+		Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT, _gpioLEDBits[i].io.port,
 				_gpioLEDBits[i].io.pin);
+
+		Chip_GPIO_SetPinState(LPC_GPIO_PORT, _gpioLEDBits[i].io.port,
+									_gpioLEDBits[i].io.pin, (bool) false);
 
 	}
 
 	_fLedsInit = true;
 }
 
-void LEDS_Set(uint8_t LEDNumber, bool Off) {
+void LEDS_Set(uint8_t LEDTag, bool Off) {
 
-	if(!_fLedsInit)
+	int i;
+
+	if (!_fLedsInit)
 		return;
 
-	if (LEDNumber < (sizeof(_gpioLEDBits) / sizeof(io_port_t)))
+	for (i = 0; i < sizeof(_gpioLEDBits) / sizeof(io_port_t); ++i) {
 
-		Chip_GPIO_SetPinState(LPC_GPIO_PORT, _gpioLEDBits[LEDNumber].io.port,
-				_gpioLEDBits[LEDNumber].io.pin, (bool) !Off);
+		if((LEDTag >> i) & 0x01 == 1){
+
+			Chip_GPIO_SetPinState(LPC_GPIO_PORT, _gpioLEDBits[i].io.port,
+							_gpioLEDBits[i].io.pin, (bool) !Off);
+
+			return;
+		}
+	}
 }
 
-bool LEDS_Test(uint8_t LEDNumber) {
+void LEDS_SetAll(uint8_t ledsState) {
 
-	if(!_fLedsInit)
+	int i;
+
+	if (!_fLedsInit)
+		return;
+
+	for (i = 0; i < sizeof(_gpioLEDBits) / sizeof(gpio_port_t); ++i)
+
+		Chip_GPIO_SetPinState(LPC_GPIO_PORT, _gpioLEDBits[i].io.port,
+				_gpioLEDBits[i].io.pin, (bool) ((ledsState >> i) & 0x01));
+}
+
+bool LEDS_Test(uint8_t LEDTag) {
+
+	int i;
+
+	if (!_fLedsInit)
 		return false;
 
-	if (LEDNumber < (sizeof(_gpioLEDBits) / sizeof(io_port_t)))
+	for (i = 0; i < sizeof(_gpioLEDBits) / sizeof(io_port_t); ++i) {
 
-		return (bool) !Chip_GPIO_GetPinState(LPC_GPIO_PORT,
-				_gpioLEDBits[LEDNumber].io.port, _gpioLEDBits[LEDNumber].io.pin);
+		if((LEDTag >> i) & 0x01 == 1){
+
+			return (bool) !Chip_GPIO_GetPinState(LPC_GPIO_PORT,
+							_gpioLEDBits[i].io.port, _gpioLEDBits[i].io.pin);
+
+		}
+	}
 
 	return false;
 }
 
-void LEDS_Toggle(uint8_t LEDNumber) {
+uint8_t LEDS_TestAll(void) {
 
-	if(!_fLedsInit)
+	int i;
+	uint8_t ret = 0x00;
+
+	if (!_fLedsInit)
+		return -1;
+
+	for (i = 0; i < sizeof(_gpioLEDBits) / sizeof(_gpioLEDBits[0]); ++i) {
+
+		if (Chip_GPIO_GetPinState(LPC_GPIO_PORT, _gpioLEDBits[i].io.port,
+				_gpioLEDBits[i].io.pin) == 1)
+
+			ret |= 0x1 << i;
+	}
+
+	return ret;
+}
+
+void LEDS_Toggle(uint8_t LEDTag) {
+
+	if (!_fLedsInit)
 		return;
 
-	LEDS_Set(LEDNumber, !LEDS_Test(LEDNumber));
+	LEDS_Set(LEDTag, !LEDS_Test(LEDTag));
 }
 

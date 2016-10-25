@@ -54,10 +54,10 @@ int8_t Buttons_PollAll(void);
 
 /** Polls button without deboucing
  *
- * @param buttonNum: button's number (1 ... n)
+ * @param buttonTag: button's TAG (BUTTONS_SW[num])
  * @return button's raw state (true if pressed false otherwise)
  */
-bool Buttons_Poll(int8_t buttonNum);
+bool Buttons_Poll(int8_t buttonTag);
 
 /** Polls all buttons with deboucing
  *
@@ -68,10 +68,10 @@ int8_t Buttons_PollDebAll(uint32_t currentT);
 
 /** Polls button with deboucing
  *
- * @param buttonNum: button's number (1 ... n)
+ * @param buttonTag: button's TAG (BUTTONS_SW[num])
  * @param currentT: current time in ms
  * @return button's debounced state (true if pressed false otherwise)
  */
-bool Buttons_PollDeb(int8_t buttonNum, uint32_t currentT);
+bool Buttons_PollDeb(int8_t buttonTag, uint32_t currentT);
 
 #endif /* PROGRAM_PERIPH_BLINKY_INC_BUTTONS_H_ */

@@ -13,7 +13,7 @@ uint32_t _debT = BUTTONS_DEF_DEB_T;
 
 uint32_t _oldT = 0;
 
-int8_t _butState = 0x80;
+int8_t _butState = 0x00;
 
 uint32_t _butClks[] = { 0, 0, 0, 0 };
 
@@ -70,7 +70,7 @@ void Buttons_SetDebT(uint32_t debT) {
 int8_t Buttons_PollAll(void) {
 
 	int i;
-	uint8_t ret = 0x80;
+	uint8_t ret = 0x00;
 
 	if (!_fButInit)
 		return -1;
@@ -83,7 +83,7 @@ int8_t Buttons_PollAll(void) {
 			ret |= 0x1 << i;
 	}
 
-	return ~ret;
+	return ret;
 }
 
 /** Polls button without deboucing
@@ -91,19 +91,25 @@ int8_t Buttons_PollAll(void) {
  * @param buttonNum: button's number (1 ... n)
  * @return button's raw state (true if pressed false otherwise)
  */
-bool Buttons_Poll(int8_t buttonNum) {
+bool Buttons_Poll(int8_t buttonTag) {
+
+	int i;
 
 	if (!_fButInit)
 		return false;
 
-	if(buttonNum > sizeof(_gpioSWBits) / sizeof(_gpioSWBits[0]))
+	for (i = 0; i < sizeof(_gpioSWBits) / sizeof(io_port_t); ++i) {
+
+		if ((buttonTag >> i) & 0x01 == 1) {
+
+			if (Chip_GPIO_GetPinState(LPC_GPIO_PORT, _gpioSWBits[i].io.port,
+					_gpioSWBits[i].io.pin) == 0)
+				return true;
+
 			return false;
 
-	buttonNum--;
-
-	if (Chip_GPIO_GetPinState(LPC_GPIO_PORT, _gpioSWBits[buttonNum].io.port,
-			_gpioSWBits[buttonNum].io.pin) == 0)
-		return true;
+		}
+	}
 
 	return false;
 }
@@ -130,15 +136,15 @@ int8_t Buttons_PollDebAll(uint32_t currentT) {
 			_butClks[i] = _debT;
 
 		// get button's raw value
-		butRaw = Chip_GPIO_GetPinState(LPC_GPIO_PORT, _gpioSWBits[i].io.port,
+		butRaw = ~Chip_GPIO_GetPinState(LPC_GPIO_PORT, _gpioSWBits[i].io.port,
 				_gpioSWBits[i].io.pin);
 
 		// check if state and raw value are different update clock
 		if (butRaw != ((_butState >> i) & 0x01) && _butClks[i] < _debT) {
 
-				_butClks[i] += currentT - _oldT;
+			_butClks[i] += currentT - _oldT;
 
-		// otherwise, reset clock and update state
+			// otherwise, reset clock and update state
 		} else {
 
 			_butClks[i] = 0;
@@ -150,7 +156,7 @@ int8_t Buttons_PollDebAll(uint32_t currentT) {
 
 	_oldT = currentT;
 
-	return ~_butState;
+	return _butState;
 
 }
 
@@ -160,17 +166,24 @@ int8_t Buttons_PollDebAll(uint32_t currentT) {
  * @param currentT: current time in ms
  * @return button's debounced state (true if pressed false otherwise)
  */
-bool Buttons_PollDeb(int8_t buttonNum, uint32_t currentT) {
+bool Buttons_PollDeb(int8_t buttonTag, uint32_t currentT) {
+
+	int i;
 
 	//return if debouncing not init
 	if (!_fDebInit)
 		return false;
 
-	//return if buttonNum greater than num of defined buttons
-	if(buttonNum > sizeof(_gpioSWBits) / sizeof(_gpioSWBits[0]))
-		return false;
+	for (i = 0; i < sizeof(_gpioSWBits) / sizeof(io_port_t); ++i) {
 
-	//
-	return (bool) ((Buttons_PollDebAll(currentT) & (0x1 << (buttonNum - 1))) > 0);
+		if ((buttonTag >> i) & 0x01 == 1) {
+
+			return (bool) ((Buttons_PollDebAll(currentT) & (0x1 << i)) > 0);
+
+		}
+	}
+
+	return false;
+
 }
 

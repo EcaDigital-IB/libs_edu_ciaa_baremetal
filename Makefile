@@ -13,7 +13,7 @@ DEPS=$(SRC:.c=.d)
 LDSCRIPT=ldscript/ciaa_lpc4337.ld
 
 ARCH_FLAGS=-mcpu=cortex-m4 -mthumb
-ARCH_FLAGS+=-mfloat-abi=hard -mfpu=fpv4-sp-d16
+ARCH_FLAGS+= -mfpu=fpv4-sp-d16 -mfloat-abi=hard #hard softfp
 
 CFLAGS=$(ARCH_FLAGS) $(INCLUDES) $(_DEFINES) -ggdb3 -O2
 LDFLAGS=$(ARCH_FLAGS) -T$(LDSCRIPT) -nostartfiles -O2
