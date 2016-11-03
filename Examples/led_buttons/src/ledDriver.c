@@ -8,6 +8,11 @@ void LEDSet(bool Off) {
 
 void LEDInit() {
 
+	// LED_1 pin muxing
+	Chip_SCU_PinMuxSet(LED_PINMUX_PORT, LED_PINMUX_PIN,
+			(SCU_MODE_INBUFF_EN | SCU_MODE_PULLUP | SCU_MODE_FUNC0));
+
+
 	/* Set pin direction and init to off */
 	Chip_GPIO_SetPinDIROutput(LPC_GPIO_PORT, LED_GPIO_PORT, LED_GPIO_PIN);
 	LEDSet((bool) true);

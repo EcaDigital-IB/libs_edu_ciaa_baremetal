@@ -32,6 +32,7 @@
 #include "chip.h"
 #include "leds.h"
 #include "timerDriver.h"
+#include "uartDriver.h"
 
 #define TICKRATE_HZ 20000
 #define ADC_RATE_HZ (TICKRATE_HZ * 20)
@@ -43,6 +44,7 @@ volatile bool _fADCDone = false;
 #define _ADC_CHANNLE ADC_CH3
 #define _LPC_ADC_ID LPC_ADC0
 #define _LPC_ADC_IRQ ADC0_IRQn
+#define _ADC_INT_PRIO 0
 
 /**
  * @brief	Handle interrupt from 32-bit timer
@@ -77,32 +79,6 @@ void ADC0_IRQHandler(void) {
 	Chip_ADC_Int_SetChannelCmd(_LPC_ADC_ID, _ADC_CHANNLE, ENABLE);
 }
 
-void UART_Init(void) {
-
-	Chip_SCU_PinMuxSet(7, 1,
-			(SCU_MODE_INBUFF_EN | SCU_MODE_INACT | SCU_MODE_FUNC6)); // UART2 TX
-	Chip_SCU_PinMuxSet(7, 2,
-			(SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS | SCU_MODE_INACT
-					| SCU_MODE_FUNC6));	// UART2 RX
-
-	Chip_UART_Init(LPC_USART2);
-	Chip_UART_SetBaudFDR(LPC_USART2, 230400);
-	Chip_UART_ConfigData(LPC_USART2,
-	UART_LCR_WLEN8 | UART_LCR_SBS_1BIT | UART_LCR_PARITY_DIS);
-
-	/* Enable UART Transmit */
-	Chip_UART_TXEnable(LPC_USART2);
-
-}
-
-void UART_PutChar(char ch) {
-
-	while ((Chip_UART_ReadLineStatus(LPC_USART2) & UART_LSR_THRE) == 0) {
-	}
-
-	Chip_UART_SendByte(LPC_USART2, (uint8_t) ch);
-
-}
 /**
  * @brief	main routine for blinky example
  * @return	Function should not exit.
@@ -125,13 +101,13 @@ int main(void) {
 	Chip_ADC_Init(_LPC_ADC_ID, &ADCSetup);
 	Chip_ADC_EnableChannel(_LPC_ADC_ID, _ADC_CHANNLE, ENABLE);
 
-	ADCSetup.burstMode = true;
+	ADCSetup.burstMode = false;
 
 	Chip_ADC_SetSampleRate(_LPC_ADC_ID, &ADCSetup, ADC_RATE_HZ);
 
-	Chip_ADC_SetResolution(_LPC_ADC_ID, &ADCSetup, ADC_10BITS);
-
 	NVIC_EnableIRQ(_LPC_ADC_IRQ);
+	NVIC_SetPriority(_LPC_ADC_IRQ,_ADC_INT_PRIO);
+
 	Chip_ADC_Int_SetChannelCmd(_LPC_ADC_ID, _ADC_CHANNLE, ENABLE);
 
 	while (true) {

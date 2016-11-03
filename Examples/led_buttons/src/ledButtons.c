@@ -10,7 +10,7 @@ int main(void) {
 
 	while (1) {
 
-		if (Buttons_Poll(1))
+		if (Buttons_Poll(BUTTONS_SW1))
 			LEDSet(false);
 
 		else
